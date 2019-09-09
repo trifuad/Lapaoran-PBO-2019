@@ -1,8 +1,20 @@
-# Laporan Praktikum #1 - Pengantar Konsep PBO
+# Laporan Praktikum #2 - Class dan Object
 
 ## Kompetensi
 
-(ketiklah kompetensi tiap praktikum di sini)
+ Mahasiswa dapat memahami deskripsi dari class dan object 
+
+ Mahasiswa memahami implementasi dari class 
+
+ Mahasiswa dapat memahami implementasi dari attribute 
+
+ Mahasiswa dapat memahami implementasi dari method 
+
+ Mahasiswa dapat memahami implementasi dari proses instansiasi 
+
+ Mahasiswa dapat memahami implementasi dari try-catch 
+
+ Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML 
 
 ## Ringkasan Materi
 
@@ -16,11 +28,8 @@
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/praktikum1.PNG)
+![contoh screenshot](img/karyanwan.PNG)
 
-Contoh link kode program : [kode program Sepeda1841720139Fuad](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720139Fuad.java)
-
-[kode program SepedaDemo1841720139Fuad](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720139Fuad.java)
 
 ### Percobaan 2
 
@@ -28,42 +37,30 @@ Contoh link kode program : [kode program Sepeda1841720139Fuad](../../src/1_Penga
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/praktikum2.PNG)
+![contoh screenshot](img/mahasiswa.PNG)
 
-Contoh link kode program : [kode program SepedaGunung184120139Fuad](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720139Fuad.java)
+Contoh link kode program : [kode program Mahasiswa1841720139Fuad ](../../src/2_Class_dan_Object/Mahasiswa1841720139Fuad.java)
 
-[kode program SepedaDemo1841720139Fuad](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720139Fuad.java)
+![contoh screenshot](img/testmahasiswa.PNG)
 
-## Pertanyaan
+Contoh link kode program : [kode program testMahasiswa1841720139Fuad ](../../src/2_Class_dan_Object/testMahasiswa1841720139Fuad.java)
 
-(1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!
-Jawab: Object adalah suatu rangkaian dalam program yang terdiri dari state dan behaviour. Object pada software dimodelkan sedemikian rupa sehingga mirip dengan objek yang ada di dunia nyata.
+### Percobaan 3
 
-Class  adalah blueprint atau prototype dari objek. Ambil contoh objek sepeda. Terdapat berbagai macam sepeda di dunia, dari berbagai merk dan model. 
+(berisi penjelasan percobaan 3. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-Enkapsulasi Disebut juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui kompleksitas yang ada didalamnya
+`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-Inheritance Disebut juga pewarisan. Inheritance memungkinkan kita untuk mengorganisir struktur program dengan natural. Inheritance juga memungkinkan kita untuk memperluas fungsionalitas program tanpa harus mengubah banyak bagian program. Contoh di dunia nyata, objek sepeda dapat diturunkan lagi ke model yang lebih luas, misal sepeda gunung (mountain bike) dan road bike.
+![contoh screenshot](img/barang.PNG)
 
-Polimorfisme Polimorfisme juga meniru sifat objek di dunia nyata, dimana sebuah objek dapat memiliki bentuk, atau menjelma menjadi bentuk-bentuk lain. Misalkan saja objek pesawat terbang. Objek ini dapat diwariskan menjadi pesawat jet dan pesawat baling-baling. Keduanya memiliki kemampuan untuk menambah kecepatan. Namun secara teknis, metode penambahan kecepatan antara pesawat jet dengan baling-baling tentu berbeda, karena masing-masing memiliki jenis mesin yang berbeda. 
+Contoh link kode program : [kode program Barang1841720139Fuad ](../../src/2_Class_dan_Object/Barang1841720139Fuad.java)
 
- 2. Apa yang dimaksud dengan object dan apa bedanya dengan class?
- Jawab:class adalah kumpulan atas definisi data dan fungsi fungsi dalam suatu unit.
+![contoh screenshot](img/testbarang.PNG)
 
- Object ialah membungkus data dan fungsi bersama menjadi suatu unit dalam sebuah program komputer, objek merupakan dasar dari modularitas dan struktur dalam sebuah program komputer berorientasi objek 
+Contoh link kode program : [kode program testBarang1841720139Fuad ](../../src/2_Class_dan_Object/testBarang1841720139Fuad.java)
 
- 3. Sebutkan salah satu kelebihan utama dari pemrograman
- berorientasi objekdibandingkan dengan pemrograman struktural!
- Jawab: Adanya  konsistensi karena sifat inhantance dan penggunaan fase yang sama pada saat menganalisis,merancang maupun coding
 
-  4. Pada class Sepeda, terdapat state/atribut apa saja?
-   Jawab: Decrement,increment,newValue
 
-  5. Tambahkan atribut warna pada class Sepeda.
-   Jawab:E:\java\semester3\src\semester3
-  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?
-  Jawab: Karena kita sudah memanggil fungsi dari extands yang terdapat pada SepedaGunung
-   )
 
 ## Tugas
 
@@ -71,14 +68,36 @@ Polimorfisme Polimorfisme juga meniru sifat objek di dunia nyata, dimana sebuah 
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/tugas1.PNG)
-![contoh screenshot](img/tugas2.PNG)
+(1.Video Game)
 
-Contoh link kode program : [kode program Guitar1841720139Fuad](../../src/1_Pengantar_Konsep_PBO/Guitar1841720139Fuad.java)
+![contoh screenshot](img/game.PNG)
+![contoh screenshot](img/videogame.PNG)
 
-[kode program GuitarListrik1841720139Fuad](../../src/1_Pengantar_Konsep_PBO/GuitarListrik1841720139Fuad.java)
+Contoh link kode program : [kode program VideoGame1841720139Fuad ](../../src/2_Class_dan_Object/VideoGame1841720139Fuad.java)
 
-[kode program GuitarDemo1841720139Fuad](../../src/1_Pengantar_Konsep_PBO/GuitarDemo1841720139Fuad.java)
+![contoh screenshot](img/sewagame.PNG)
+
+Contoh link kode program : [kode program SewaGameMain1841720139Fuad ](../../src/2_Class_dan_Object/SewaGameMain1841720139Fuad.java)
+
+(2.Lingkaran)
+
+![contoh screenshot](img/lingkarang.PNG)
+
+Contoh link kode program : [kode program Lingkaran1841720139Fuad ](../../src/2_Class_dan_Object/Lingkaran1841720139Fuad.java)
+
+![contoh screenshot](img/lingkaranmain.PNG)
+
+Contoh link kode program : [kode program LingkaranMain1841720139Fuad ](../../src/2_Class_dan_Object/LingkaranMain1841720139Fuad.java)
+
+(3. Barang)
+
+![contoh screenshot](img/tugasbarang.PNG)
+
+Contoh link kode program : [kode program TugasBarang1841720139Fuad ](../../src/2_Class_dan_Object/TugasBarang1841720139Fuad.java)
+
+![contoh screenshot](img/barangmain.PNG)
+
+Contoh link kode program : [kode program BarangMain1841720139Fuad ](../../src/2_Class_dan_Object/BarangMain1841720139Fuad.java)
 
 ## Kesimpulan
 
