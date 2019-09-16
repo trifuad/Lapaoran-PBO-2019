@@ -21,21 +21,28 @@ untuk keseluruhan dalam menyelesaikan tugas yang di berikan dosen tidak ada masa
  (Enkapsulasi)
 
 
-![](img/praktikum1.png)
-![](img/praktikum1hasil.png)
+![](img/motor.png)
 
-file Program percobaan 1 jadi satu di percobaan 2
+Contoh link kode program : 
+[Motor1841720139Fuad](../../src/3_Enkapsulasi/Motor1841720139Fuad.java)
+
+![](img/motordemo.png)
+
+Contoh link kode program : 
+[MotorDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorDemo1841720139Fuad.java)
 
 
 ### Percobaan 2
 
 ( Access Modifier )
 
-![](img/praktikum2.png)
-![](img/praktikum2hasil.png)
+![](img/motormodif.png)
 
-Contoh link kode program : [Program 1](../../src/3_Enkapsulasi/Motor1841720157Andri.java)
-Contoh link kode program : [Program 2](../../src/3_Enkapsulasi/MotorDemo1841720157Andri.java)
+Contoh link kode program : [MotorModif1841720139Fuad](../../src/3_Enkapsulasi/MotorModif1841720139Fuad.java)
+
+![](img/motormodifdemo.png)
+
+Contoh link kode program : [MotorModifDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorModifDemo1841720139Fuad.java)
 
 ### Pertanyaan
 Soal
@@ -55,23 +62,26 @@ Jawab
 
 ( Getter dan Setter )
 
-![](img/praktikum3.png)
-![](img/praktikum3hasil.png)
+![](img/anggota.png)
 
+Contoh link kode program :
+[Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
 
-file Program percobaan 3 jadi satu di percobaan 4
+![](img/koperasidemo.png)
+
+Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/KoperasiDemo1841720139Fuad.java)
 
 ### Percobaan 4
 ( Konstruktor, Instansiasi )
 
 
+![](img/ubahkoperasidemo.png)
+![](img/ubahlastanggota.png)
+![](img/ubahlastkoperasidemo.png)
 
-
-![](img/praktikum4hasil.png)
-![](img/praktikum4hasil2.png)
-
-Contoh link kode program : [Program 1](../../src/3_Enkapsulasi/Anggota1841720157Andri.java)
-Contoh link kode program : [Program 2](../../src/3_Enkapsulasi/KoperasiDemo.java)
+Contoh link kode program :
+[Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
+Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/KoperasiDemo1841720139Fuad.java)
 
 
 ### Pertanyaan
@@ -102,39 +112,68 @@ Contoh link kode program : [Program 2](../../src/3_Enkapsulasi/KoperasiDemo.java
  
 
 1. 
-![](img/tugas1.png)
-![](img/tugas1hasil.png)
+![](img/encapdemo.png)
 
-                  file program tugas no satu, jadi satu di tugas no 3
+Contoh link kode program : 
+[EncapDemo1841720139Fuad](../../src/3_Enkapsulasi/EncapDemo1841720139Fuad.java)
 
-2. Karena pada method setAge() terdapat kondisi jika newAge lebih besar dari 30 maka muncul output dengan nilai 30, itulah mengapa jika kita mengatur atribut age dengan inputan 35 yang muncul adalah 30.
+![](img/encaptest.png)
 
+Contoh link kode program : 
+[EncapTest1841720139Fuad](../../src/3_Enkapsulasi/EncapTest1841720139Fuad.java)
+
+
+2.  Karena pada method setAge terdapat percabangan yang didalamnya berisi bila nilai dari atribut age lebih dari 30 maka nilai age akan menjadi 30 
 
 3. 
-![](img/tugas3.png)
-   ![](img/tugas3hasil.png)
+![](img/encapdemoubah.png)
 
-Contoh link kode program : [Program 1](../../src/3_Enkapsulasi/EncapDemo.java)
-Contoh link kode program : [Program 2](../../src/3_Enkapsulasi/EncapTest.java)
+Contoh link kode program : 
+[EncapDemoUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapDemoubah1841720139Fuad.java)
+
+![](img/encaptestubah.png)
+
+Contoh link kode program : 
+[EncapTestUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapTestubah1841720139Fuad.java)
 
 
 4. 
- ![](img/tugas4.png)
-   ![](img/tugas4hasil.png)
-     
-         File program no 4 ada di tugas no 6 karena programnya saling berhubungan
-5. 
- ![](img/tugas5.png)
-   ![](img/tugas5hasil.png)
+ ![](img/anggotatugas.png)
 
-         File program no 5 ada di tugas no 6 karena programnya saling berhubungan
+ Contoh link kode program : 
+[AnggotaTugas1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugas1841720139Fuad.java)
+
+ ![](img/koperasitugas.png)
+
+Contoh link kode program : 
+[KopersaiTugas1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugas1841720139Fuad.java)
+
+pak mohonmaaf link ini gak bisa dibuka karena saya pencet delete permanent pak padahal sudah saya sendiri-sendirikan pak :( 
+
+5. 
+ ![](img/anggotaubahtugas.png)
+
+ Contoh link kode program : 
+[AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
+
+ ![](img/koperasitugasubah.png)
+
+Contoh link kode program : 
+[KopersaiTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasUbah1841720139Fuad.java)
+
+ pak mohonmaaf link ini gak bisa dibuka karena saya pencet delete permanent pak padahal sudah saya sendiri-sendirikan pak :( 
+ 
 
 6. 
- ![](img/tugas6.png)
-   ![](img/tugas6hasil.png)
+ ![](img/anggotaubahtugas.png)
+ Contoh link kode program : 
+[AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
 
-Contoh link kode program : [Program 1](../../src/3_Enkapsulasi/Anggota.java)
-Contoh link kode program : [Program 2](../../src/3_Enkapsulasi/TestKoperasi.java)
+   ![](img/koperasifinal1.png)
+   
+   ![](img/koperasifinal2.png)
+[KoperasiTugasFinal1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasFinal1841720139Fuad.java)
+
 
 
 ## Kesimpulan
@@ -155,4 +194,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(ANDRI YOGA SUSILA)***
+***(TRI FUAD)***
