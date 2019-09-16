@@ -28,7 +28,7 @@ untuk keseluruhan dalam menyelesaikan tugas yang di berikan dosen tidak ada masa
 Contoh link kode program : 
 [Motor1841720139Fuad](../../src/3_Enkapsulasi/Motor1841720139Fuad.java)
 
-![](img/motordemo.png)
+![motor demo](img/motordemo.png)
 
 Contoh link kode program : 
 [MotorDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorDemo1841720139Fuad.java)
@@ -38,11 +38,11 @@ Contoh link kode program :
 
 ( Access Modifier )
 
-![](img/motormodif.png)
+![motor modif](img/motormodif.png)
 
 Contoh link kode program : [MotorModif1841720139Fuad](../../src/3_Enkapsulasi/MotorModif1841720139Fuad.java)
 
-![](img/motormodifdemo.png)
+![motor modif demo](img/motormodifdemo.png)
 
 Contoh link kode program : [MotorModifDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorModifDemo1841720139Fuad.java)
 
@@ -64,12 +64,12 @@ Jawab
 
 ( Getter dan Setter )
 
-![](img/anggota.png)
+![anggota](img/anggota.png)
 
 Contoh link kode program :
 [Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
 
-![](img/koperasidemo.png)
+![kopersai demo](img/koperasidemo.png)
 
 Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/KoperasiDemo1841720139Fuad.java)
 
@@ -77,9 +77,9 @@ Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/
 ( Konstruktor, Instansiasi )
 
 
-![](img/ubahkoperasidemo.png)
-![](img/ubahlastanggota.png)
-![](img/ubahlastkoperasidemo.png)
+![ubah kopersai](img/ubahkoperasidemo.png)
+![ubah last kopersai](img/ubahlastanggota.png)
+![ubah last koperasi demo](img/ubahlastkoperasidemo.png)
 
 Contoh link kode program :
 [Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
@@ -114,12 +114,12 @@ Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/
  
 
 1. 
-![](img/encapdemo.png)
+![encap demo](img/encapdemo.png)
 
 Contoh link kode program : 
 [EncapDemo1841720139Fuad](../../src/3_Enkapsulasi/EncapDemo1841720139Fuad.java)
 
-![](img/encaptest.png)
+![encap test](img/encaptest.png)
 
 Contoh link kode program : 
 [EncapTest1841720139Fuad](../../src/3_Enkapsulasi/EncapTest1841720139Fuad.java)
@@ -128,24 +128,24 @@ Contoh link kode program :
 2.  Karena pada method setAge terdapat percabangan yang didalamnya berisi bila nilai dari atribut age lebih dari 30 maka nilai age akan menjadi 30 
 
 3. 
-![](img/encapdemoubah.png)
+![encap demo ubah](img/encapdemoubah.png)
 
 Contoh link kode program : 
 [EncapDemoUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapDemoubah1841720139Fuad.java)
 
-![](img/encaptestubah.png)
+![encap test ubah](img/encaptestubah.png)
 
 Contoh link kode program : 
 [EncapTestUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapTestubah1841720139Fuad.java)
 
 
 4. 
- ![](img/anggotatugas.png)
+ ![anggota tugas ](img/anggotatugas.png)
 
  Contoh link kode program : 
 [AnggotaTugas1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugas1841720139Fuad.java)
 
- ![](img/koperasitugas.png)
+ ![koperasi tugas](img/koperasitugas.png)
 
 Contoh link kode program : 
 [KopersaiTugas1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugas1841720139Fuad.java)
@@ -153,12 +153,12 @@ Contoh link kode program :
 pak mohonmaaf link ini gak bisa dibuka karena saya pencet delete permanent pak padahal sudah saya sendiri-sendirikan pak :( 
 
 5. 
- ![](img/anggotaubahtugas.png)
+ ![anggota ubah tugas](img/anggotaubahtugas.png)
 
  Contoh link kode program : 
 [AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
 
- ![](img/koperasitugasubah.png)
+ ![koperasi tugas ubah](img/koperasitugasubah.png)
 
 Contoh link kode program : 
 [KopersaiTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasUbah1841720139Fuad.java)
@@ -167,13 +167,13 @@ Contoh link kode program :
  
 
 6. 
- ![](img/anggotaubahtugas.png)
+ ![angggota ubah tugas](img/anggotaubahtugas.png)
  Contoh link kode program : 
 [AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
 
-   ![](img/koperasifinal1.png)
+   ![koperasi final 1](img/koperasifinal1.png)
    
-   ![](img/koperasifinal2.png)
+   ![kopeerasi final 2](img/koperasifinal2.png)
 [KoperasiTugasFinal1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasFinal1841720139Fuad.java)
 
 
