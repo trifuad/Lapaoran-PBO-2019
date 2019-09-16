@@ -27,9 +27,9 @@ public class KoperasiTugasFinal1841720139Fuad {
         while (true) {
         menu();
         } 
+ }
 
-
- private static void menu() {
+  private static void menu () {
      int input = 0;
      System.out.println("     Menu");
      System.out.println("==============");
@@ -41,25 +41,26 @@ public class KoperasiTugasFinal1841720139Fuad {
      System.out.print("Input : ");
      input = sc.nextInt();
      int uang = 0; 
-    }
+
  
  switch (input) {
      case 1: 
          System.out.print("Input Nominal Pinjam : ");
-         uang = sc.nextInt()
-         member.pinjam(uang);
-         System.out.println("Jumlah Pinjaman : " + member.getJumlahPinjaman());
+         uang = sc.nextInt();
+         member.pinjamFuad(uang);
+         System.out.println("Jumlah Pinjaman : " + member.getJumlahPinjamanFuad());
          break;
      case 2:
          System.out.print("Input Nominal Angsur : ");
          uang = sc.nextInt();
-         member.angsur(uang); 
-         System.out.println("Jumlah Pinjaman : " + member.getJumlahPinjaman());
+         member.angsurFuad(uang); 
+         System.out.println("Jumlah Pinjaman : " + member.getJumlahPinjamanFuad());
          break;
      case 3:
          System.out.println("Nomor Ktp : " + nomorKtp);
-         System.out.println("Nama : " + member.getNama());
-         System.out.println("Limit Pinjaman : " + member.getLimitPinjaman());                 System.out.println("Jumlah Pinjaman : " + member.getJumlahPinjaman());
+         System.out.println("Nama : " + member.getNamaFuad());
+         System.out.println("Limit Pinjaman : " + member.getLimitPinjamanFuad());
+         System.out.println("Jumlah Pinjaman : " + member.getJumlahPinjamanFuad());
          break;
      case 4:
          System.exit(0);
