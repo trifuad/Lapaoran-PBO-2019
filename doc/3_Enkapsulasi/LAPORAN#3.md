@@ -1,4 +1,6 @@
 # Laporan Praktikum #3 - Enkapsulasi Pada Pemrograman Berorientasi Objek 
+
+TRI FUAD
 ## Kompetensi
 
 1. Konstruktor
