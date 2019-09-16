@@ -28,7 +28,7 @@ untuk keseluruhan dalam menyelesaikan tugas yang di berikan dosen tidak ada masa
 Contoh link kode program : 
 [Motor1841720139Fuad](../../src/3_Enkapsulasi/Motor1841720139Fuad.java)
 
-![motor demo](img/motordemo.png)
+![motor demo](img/motordemo.PNG)
 
 Contoh link kode program : 
 [MotorDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorDemo1841720139Fuad.java)
@@ -38,11 +38,11 @@ Contoh link kode program :
 
 ( Access Modifier )
 
-![motor modif](img/motormodif.png)
+![motor modif](img/motormodif.PNG)
 
 Contoh link kode program : [MotorModif1841720139Fuad](../../src/3_Enkapsulasi/MotorModif1841720139Fuad.java)
 
-![motor modif demo](img/motormodifdemo.png)
+![motor modif demo](img/motormodifdemo.PNG)
 
 Contoh link kode program : [MotorModifDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorModifDemo1841720139Fuad.java)
 
@@ -57,19 +57,19 @@ muncul peringatan “Kecepatan tidak bisa bertambah karena Mesin Off!”?
 Jawab
 1. Karena method tambahKecepatan dipanggil sebelum method nyalakanMesin yang digunakan untuk menyalakan mesin dipanggil
 2. Agar atribut kecepatan dan kontak0n tidak bisa diakses oleh class lain
-3. ![](img/pertanyaan3.png)
+3. ![](img/pertanyaan3.PNG)
 
 
 ### Percobaan 3
 
 ( Getter dan Setter )
 
-![anggota](img/anggota.png)
+![anggota](img/anggota.PNG)
 
 Contoh link kode program :
 [Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
 
-![kopersai demo](img/koperasidemo.png)
+![kopersai demo](img/koperasidemo.PNG)
 
 Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/KoperasiDemo1841720139Fuad.java)
 
@@ -77,9 +77,9 @@ Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/
 ( Konstruktor, Instansiasi )
 
 
-![ubah kopersai](img/ubahkoperasidemo.png)
-![ubah last kopersai](img/ubahlastanggota.png)
-![ubah last koperasi demo](img/ubahlastkoperasidemo.png)
+![ubah kopersai](img/ubahkoperasidemo.PNG)
+![ubah last kopersai](img/ubahlastanggota.PNG)
+![ubah last koperasi demo](img/ubahlastkoperasidemo.PNG)
 
 Contoh link kode program :
 [Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
@@ -114,12 +114,12 @@ Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/
  
 
 1. 
-![encap demo](img/encapdemo.png)
+![encap demo](img/encapdemo.PNG)
 
 Contoh link kode program : 
 [EncapDemo1841720139Fuad](../../src/3_Enkapsulasi/EncapDemo1841720139Fuad.java)
 
-![encap test](img/encaptest.png)
+![encap test](img/encaptest.PNG)
 
 Contoh link kode program : 
 [EncapTest1841720139Fuad](../../src/3_Enkapsulasi/EncapTest1841720139Fuad.java)
@@ -128,24 +128,24 @@ Contoh link kode program :
 2.  Karena pada method setAge terdapat percabangan yang didalamnya berisi bila nilai dari atribut age lebih dari 30 maka nilai age akan menjadi 30 
 
 3. 
-![encap demo ubah](img/encapdemoubah.png)
+![encap demo ubah](img/encapdemoubah.PNG)
 
 Contoh link kode program : 
 [EncapDemoUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapDemoubah1841720139Fuad.java)
 
-![encap test ubah](img/encaptestubah.png)
+![encap test ubah](img/encaptestubah.PNG)
 
 Contoh link kode program : 
 [EncapTestUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapTestubah1841720139Fuad.java)
 
 
 4. 
- ![anggota tugas ](img/anggotatugas.png)
+ ![anggota tugas ](img/anggotatugas.PNG)
 
  Contoh link kode program : 
 [AnggotaTugas1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugas1841720139Fuad.java)
 
- ![koperasi tugas](img/koperasitugas.png)
+ ![koperasi tugas](img/koperasitugas.PNG)
 
 Contoh link kode program : 
 [KopersaiTugas1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugas1841720139Fuad.java)
@@ -153,12 +153,12 @@ Contoh link kode program :
 pak mohonmaaf link ini gak bisa dibuka karena saya pencet delete permanent pak padahal sudah saya sendiri-sendirikan pak :( 
 
 5. 
- ![anggota ubah tugas](img/anggotaubahtugas.png)
+ ![anggota ubah tugas](img/anggotaubahtugas.PNG)
 
  Contoh link kode program : 
 [AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
 
- ![koperasi tugas ubah](img/koperasitugasubah.png)
+ ![koperasi tugas ubah](img/koperasitugasubah.PNG)
 
 Contoh link kode program : 
 [KopersaiTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasUbah1841720139Fuad.java)
@@ -171,9 +171,9 @@ Contoh link kode program :
  Contoh link kode program : 
 [AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
 
-   ![koperasi final 1](img/koperasifinal1.png)
+   ![koperasi final 1](img/koperasifinal1.PNG)
    
-   ![kopeerasi final 2](img/koperasifinal2.png)
+   ![kopeerasi final 2](img/koperasifinal2.PNG)
 [KoperasiTugasFinal1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasFinal1841720139Fuad.java)
 
 
