@@ -23,7 +23,7 @@ untuk keseluruhan dalam menyelesaikan tugas yang di berikan dosen tidak ada masa
  (Enkapsulasi)
 
 
-![](img/motor.png)
+![motor](img/motor.png)
 
 Contoh link kode program : 
 [Motor1841720139Fuad](../../src/3_Enkapsulasi/Motor1841720139Fuad.java)
