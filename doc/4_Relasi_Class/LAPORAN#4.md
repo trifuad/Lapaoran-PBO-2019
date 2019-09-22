@@ -1,14 +1,11 @@
-# Laporan Praktikum #3 - Enkapsulasi Pada Pemrograman Berorientasi Objek 
+# Laporan Praktikum #4 - Realasi Kelas
 
 TRI FUAD
 ## Kompetensi
 
-1. Konstruktor
-2. Akses Modifier
-3. Atribut/method pada class
-4. Intansiasi atribut/method 
-5. Setter dan getter
-6. Memahami notasi pada UML Class Diagram 
+Setelah menempuh pokok bahasan ini, mahasiswa mampu: 
+1. Memahami konsep relasi kelas
+2. Mengimplementasikan relasi has‑a dalam program. 
 
 
 
@@ -20,161 +17,140 @@ untuk keseluruhan dalam menyelesaikan tugas yang di berikan dosen tidak ada masa
 
 ### Percobaan 1
 
- (Enkapsulasi)
+ Class Processor
+![processor](img/processor.PNG)
+
+Link kode program : 
+[Processor](../../src/4_Relasi_Class/Processor1841720139Fuad.java)
+
+Class laptop
+![laptop](img/laptop.PNG)
+
+Link kode program : 
+[Laptop](../../src/4_Relasi_Class/Laptop1841720139Fuad.java)
+
+Class MainPercobaan1
+![main](img/main1.PNG)
+
+Link kode program : 
+[MainPercobaan1](../../src/4_Relasi_Class/MainPercobaan1.java)
 
 
-![motor](img/motor.PNG)
+### Pertanyaan
+1. Di dalam class Processor dan class Laptop , terdapat method setter dan getter untuk masing‑masing atributnya. Apakah gunanya method setter dan getter tersebut ? 
+  
+   Jawab : fungsinya sesuai dengan namanya yaitu untu menge-set (memberi nilai) dan menge-get (mendapatkan/melihat nilai) pada suatu variabel atau class dengan contructor default
+2. Di dalam class Processor dan class Laptop, masing‑masing terdapat konstruktor default dan konstruktor berparameter. Bagaimanakah beda penggunaan dari kedua jenis konstruktor tersebut ? 
+   
+   Jawab : bila konstruktor default, untuk memberi nilai menggunakan setter, tetapi jika kita menggunakan konstruktor berparameter, kita hanya perlu memberi nilai di parameter pada objek di class main.
+3. Perhatikan class Laptop, di antara 2 atribut yang dimiliki (merk dan proc), atribut manakah yang bertipe object ? 
+   
+   Jawab : proc, karena inisiasi tipe variabel ditandai dengan nama object.
+4. Perhatikan class Laptop, pada baris manakah yang menunjukan bahwa class Laptop memiliki relasi dengan class Processor ? 
+   
+   Jawab :  Terlihat jelas pada constructor, terdapat parameter yang menggunakan object Processor yang telah diinisiasi sebelumnya.
+5. Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ? 
+   
+   Jawab : proc.Info(), merupakan syntax yang digunakan untuk menjalankan method Info() pada class Processor.
+6. Pada class MainPercobaan1, terdapat baris kode: Laptop l = new Laptop("Thinkpad", p);. Apakah p tersebut ? Dan apakah yang terjadi jika baris kode tersebut diubah menjadi: 
+Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3)); Bagaimanakah hasil program saat dijalankan, apakah ada perubahan ?
 
-Contoh link kode program : 
-[Motor1841720139Fuad](../../src/3_Enkapsulasi/Motor1841720139Fuad.java)
-
-![motor demo](img/motordemo.PNG)
-
-Contoh link kode program : 
-[MotorDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorDemo1841720139Fuad.java)
-
+    Jawab : p merupakan object dari class Processor yang tadi telah diinstansiasi, Lalu kode program yang baru hasilnya sama saja, kode program tersebut memiliki perbedaan pada instansiasi dalam bentuk variabel object, bila pada kode program tersebut object tidak perlu diinstansiasi kedalam variabel lain tetapi ter nested atau bisa dibilang melakukan instansiasi objek dialam instansiasi object.
 
 ### Percobaan 2
 
-( Access Modifier )
+Class Sopir
+![](img/sopir.PNG)
 
-![motor modif](img/motormodif.PNG)
+Link kode program : 
+[Sopir](../../src/4_Relasi_Class/Sopir1841720139Fuad.java)
 
-Contoh link kode program : [MotorModif1841720139Fuad](../../src/3_Enkapsulasi/MotorModif1841720139Fuad.java)
+Class Mobil
+![](img/mobil.PNG)
 
-![motor modif demo](img/motormodifdemo.PNG)
+Link kode program : 
+[Mobil](../../src/4_Relasi_Class/Mobil1841720139Fuad.java)
 
-Contoh link kode program : [MotorModifDemo1841720139Fuad](../../src/3_Enkapsulasi/MotorModifDemo1841720139Fuad.java)
+Class Pelanggan
+![](img/pelanggan1.PNG)
+![](img/pelanggan2.PNG)
+
+Link kode program : 
+[Pelanggan](../../src/4_Relasi_Class/Pelangan1841720139Fuad.java)
+
+Class MainPercobaan2
+![](img/main2.PNG)
+
+Link kode program : 
+[mainpercobaan2](../../src/4_Relasi_Class/MainPercobaan21841720139Fuad.java)
 
 ### Pertanyaan
-Soal
+1. Perhatikan class Pelanggan. Pada baris program manakah yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ?
 
-1. Pada class TestMobil, saat kita menambah kecepatan untuk pertama kalinya, mengapa
-muncul peringatan “Kecepatan tidak bisa bertambah karena Mesin Off!”?  
-2. Mengapat atribut kecepatan dan kontakOn diset private?  
-3. Ubah class Motor sehingga kecepatan maksimalnya adalah 100!
+   Jawab :  Dapat dilihat pada inisiasi  variabel object di class pelanggan 
+2. Perhatikan method hitungBiayaSopir pada class Sopir, serta method hitungBiayaMobil pada class Mobil. Mengapa menurut Anda method tersebut harus memiliki argument hari ? 
+   
+   Jawab : argumen tersebut nantinya digunakan untuk diisi dengan variabel int hari pada class Pelanggan 
+3. Perhatikan kode dari class Pelanggan. Untuk apakah perintah mobil.hitungBiayaMobil(hari) dan sopir.hitungBiayaSopir(hari) ? 
+   
+   Jawab : kode program tersebut digunakan untuk menjumlahkan biaya mobil yang diambil dari harga sopir dikali dengan hari lalu yang dijumlahkan dengan biaya sopir yang diambil dari harga sopir dikali hari.
+4. Perhatikan class MainPercobaan2. Untuk apakah sintaks p.setMobil(m) dan p.setSopir(s) ? 
+   
+   Jawab : kode program tersebut digunakan untuk memberi atau mengisi nilai dari namaMobil dan namaSopir yang ada pada objek pelanggan
+5. Perhatikan class MainPercobaan2. Untuk apakah proses p.hitungBiayaTotal() tersebut ? 
+   
+   Jawab : Digunakan untuk menghitung biaya total dari penjumlahan antara biaya sopir dan biaya mobil.
+6. Perhatikan class MainPercobaan2, coba tambahkan pada baris terakhir dari method main dan amati perubahan saat di‑run!  
+System.out.println(p.getMobil().getMerk()); 
+Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main tersebut?
 
-Jawab
-1. Karena method tambahKecepatan dipanggil sebelum method nyalakanMesin yang digunakan untuk menyalakan mesin dipanggil
-2. Agar atribut kecepatan dan kontak0n tidak bisa diakses oleh class lain
-3. ![](img/pertanyaan3.PNG)
-
+    Jawab : perintah tersebut digunakan untuk menggembalikan atau me return nilai atribut dari method  getMerk() pada class Mobil melalui objek pelanggan, atau setelah me return object Mobil pada class pelanggan, object mobil akan me return String getMerk() pada class mobi
 
 ### Percobaan 3
 
-( Getter dan Setter )
+Class Pegawai
+![](img/pegawai.PNG)
 
-![anggota](img/anggota.PNG)
+Link kode program : 
+[Pegawai](../../src/4_Relasi_Class/Pegawai1841720139Fuad.java)
 
-Contoh link kode program :
-[Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
+Class KeretaApi 
+![](img/keretaapi1.PNG)
+![](img/keretaapi2.PNG)
 
-![kopersai demo](img/koperasidemo.PNG)
+Link kode program : 
+[KeretaApi](../../src/4_Relasi_Class/KeretaApi1841720139Fuad.java)
 
-Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/KoperasiDemo1841720139Fuad.java)
+Class MainPercobaan3
+![](img/main3.PNG)
 
-### Percobaan 4
-( Konstruktor, Instansiasi )
-
-
-![ubah kopersai](img/ubahkoperasidemo.PNG)
-![ubah last kopersai](img/ubahlastanggota.PNG)
-![ubah last koperasi demo](img/ubahlastkoperasidemo.PNG)
-
-Contoh link kode program :
-[Anggota1841720139Fuad](../../src/3_Enkapsulasi/Anggota1841720139Fuad.java)
-Contoh link kode program : [KoperasiDemo1841720139Fuad](../../src/3_Enkapsulasi/KoperasiDemo1841720139Fuad.java)
-
+Link kode program : 
+[](../../src/4_Relasi_Class/MainPercobaan31841720139Fuad.java)
 
 ### Pertanyaan
-    Soal
-1. Apa yang dimaksud getter dan setter?
-2. Apa kegunaan dari method getSimpanan()?
-3. Method apa yang digunakan untk menambah saldo?
-4. Apa yand dimaksud konstruktor?
-5. Sebutkan aturan dalam membuat konstruktor?
-6. Apakah boleh konstruktor bertipe private?
-7. Kapan menggunakan parameter dengan passsing parameter?
-8. Apa perbedaan atribut class dan instansiasi atribut?
-9. Apa perbedaan class method dan instansiasi method?
-    
-### Jawab
+1. Di dalam method info() pada class KeretaApi, baris this.masinis.info() dan this.asisten.info() digunakan untuk apa ? 
+ 
+2. Buatlah main program baru dengan nama class MainPertanyaan pada package yang sama. Tambahkan kode berikut pada method main() ! 
+ 
+    Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants"); KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis", masinis); 
+ 
+    System.out.println(keretaApi.info()); 
+ 
+3. Apa hasil output dari main program tersebut ? Mengapa hal tersebut dapat terjadi ? 
+4.  Perbaiki class KeretaApi sehingga program dapat berjalan ! 
+ 
+### Percobaan 4
+Class 
+![](img/.PNG)
 
-1. data bersifat private yang tidak bisa diakses dari luar dan dua method ini bersifat mengambil dan mengisi data dalam objek
-2. untuk menampilkan simpanan melalui getSimpanan()
-3. public void setor1841720070yayak(float uang)
-4. method khusus yang akan di jalankan secara otomatis pada objek
-5.  biasanya untuk membuat proses awal dalam mempersiapkan objek, seperti memberi nilai awal kepada property method internal dan beberapa proses lain yang digunakan untuk ‘mempersiapkan’ objek.
-6. Tidak,karena konstruktor bukan untuk private selalu di panggil
-7. 7.	Saat akan mementukan/memberikan suatu nilai atau merubah suatu nilai pada method/fungsi pada saat di jalankan
-8. Kalau menurut saya atribut class adalah atribut yang belum di beri nilai sedangkan istansiasi atribut adalah pemberian nilai pada atribut
-9. Class method adalah method yang belum di berikan nilai sedangkan instansiasi method adalah penmanggilan dan pengisian nilai pada method
+Link kode program : 
+[](../../src/4_Relasi_Class/1841720139Fuad.java)
+
+### Pertanyaan
+  
 
 ## Tugas
  
-
-1. 
-![encap demo](img/encapdemo.PNG)
-
-Contoh link kode program : 
-[EncapDemo1841720139Fuad](../../src/3_Enkapsulasi/EncapDemo1841720139Fuad.java)
-
-![encap test](img/encaptest.PNG)
-
-Contoh link kode program : 
-[EncapTest1841720139Fuad](../../src/3_Enkapsulasi/EncapTest1841720139Fuad.java)
-
-
-2.  Karena pada method setAge terdapat percabangan yang didalamnya berisi bila nilai dari atribut age lebih dari 30 maka nilai age akan menjadi 30 
-
-3. 
-![encap demo ubah](img/encapdemoubah.PNG)
-
-Contoh link kode program : 
-[EncapDemoUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapDemoubah1841720139Fuad.java)
-
-![encap test ubah](img/encaptestubah.PNG)
-
-Contoh link kode program : 
-[EncapTestUbah1841720139Fuad](../../src/3_Enkapsulasi/EncapTestubah1841720139Fuad.java)
-
-
-4. 
- ![anggota tugas ](img/anggotatugas.PNG)
-
- Contoh link kode program : 
-[AnggotaTugas1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugas1841720139Fuad.java)
-
- ![koperasi tugas](img/koperasitugas.PNG)
-
-Contoh link kode program : 
-[KopersaiTugas1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugas1841720139Fuad.java)
-
-pak mohonmaaf link ini gak bisa dibuka karena saya pencet delete permanent pak padahal sudah saya sendiri-sendirikan pak :( 
-
-5. 
- ![anggota ubah tugas](img/anggotaubahtugas.PNG)
-
- Contoh link kode program : 
-[AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
-
- ![koperasi tugas ubah](img/koperasitugasubah.PNG)
-
-Contoh link kode program : 
-[KopersaiTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasUbah1841720139Fuad.java)
-
- pak mohonmaaf link ini gak bisa dibuka karena saya pencet delete permanent pak padahal sudah saya sendiri-sendirikan pak :( 
- 
-
-6. 
- ![angggota ubah tugas](img/anggotaubahtugas.png)
- Contoh link kode program : 
-[AnggotaTugasUbah1841720139Fuad](../../src/3_Enkapsulasi/AnggotaTugasUbah1841720139Fuad.java)
-
-   ![koperasi final 1](img/koperasifinal1.PNG)
-   
-   ![kopeerasi final 2](img/koperasifinal2.PNG)
-[KoperasiTugasFinal1841720139Fuad](../../src/3_Enkapsulasi/KoperasiTugasFinal1841720139Fuad.java)
 
 
 
