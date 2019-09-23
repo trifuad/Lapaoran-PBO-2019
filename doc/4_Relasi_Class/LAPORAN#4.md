@@ -140,27 +140,96 @@ Link kode program :
 4.  Perbaiki class KeretaApi sehingga program dapat berjalan ! 
  
 ### Percobaan 4
-Class 
-![](img/.PNG)
+Class Penumpang
+![](img/penumpang.PNG)
 
 Link kode program : 
-[](../../src/4_Relasi_Class/1841720139Fuad.java)
+[Penumpang](../../src/4_Relasi_Class/Penumpang1841720139Fuad.java)
+
+Class Kursi
+![](img/kursi.PNG)
+
+Link kode program : 
+[Kursi](../../src/4_Relasi_Class/Kursi1841720139Fuad.java)
+
+Class Gerbong
+![](img/gerbong1.PNG)
+![](img/gerbong2.PNG)
+
+Link kode program : 
+[Gerbong](../../src/4_Relasi_Class/gerbong1841720139Fuad.java)
+
+Class MainPercobaan4
+![](img/main4.PNG)
+
+Link kode program : 
+[MainPercobaan4](../../src/4_Relasi_Class/MainPercobaan4.java)
 
 ### Pertanyaan
-  
+
+1.	Pada main program dalam class MainPercobaan4, berapakah jumlah kursi dalam Gerbong A?
+    
+    Jawab : 10, dapat dilihat pada instansiasi new Gerbong atau pada output bisa dilihat perulangan “Nomer : 10” 
+
+2.	Perhatikan potongan kode pada method info() dalam class Kursi. Apa maksud kode tersebut
+    
+    Jawab : potongan kode program tersebut digunakan untuk menampilkan kursi yang terisi oleh penumpang, tetapi bila penumpang tidak bernilai atau null, maka kode program yang terdapat pada if tidak dijalankan atau berarti kursi tersebut masih kosong
+
+3.	Mengapa pada method setPenumpang() dalam class Gerbang, nilai nomer dikurangi dengan angka 1?
+   
+    Jawab : karena index array selalu dimulai dari 0, oleh karena itu nilai nomer harus dikurangi 1 agar array di index 0 atau di index pertama dapat terisi
+
+4.	Intansiasi object baru budi dengan tipe Penumpang, kemudian masukan object baru tersebut pada gerbong dengan gerbong.setPenumpang(budi,1). Apakah yang terjadi?
+
+Jawab : Kode program :
+ 
+Output :
+
+ 
+
 
 ## Tugas
- 
+![](img/map.PNG)
+ Class MobilTugasFuad
+![](img/MobilTugas.PNG)
+![](img/MobilTugas1.PNG)
+
+Link kode program : 
+[MobilTugasFuad](../../src/4_Relasi_Class/MobilTugasFuad.java)
+
+ Class PembeliTugasFuad
+![](img/pembelitugas1.PNG)
+![](img/pembelitugas2.PNG)
+
+Link kode program : 
+[ PembeliTugasFuad](../../src/4_Relasi_Class/PembeliTugasFuad.java)
+
+ Class ServiceTugasFuad
+ ![](img/servicetugas1.PNG)
+![](img/servicetugas2.PNG)
+
+
+Link kode program : 
+[ServiceTugasFuad](../../src/4_Relasi_Class/ServiceTugasFuad.java)
+
+ Class TransaksiTugasFuad
+![](img/traksaksitugas1.PNG)
+![](img/traksaksitugas2.PNG)
+
+Link kode program : 
+[TransaksiTugasFuad](../../src/4_Relasi_Class/TransaksiTugasFuad.java)
+
+ Class MainTugas4
+![](img/maintugas.PNG)
+
+Link kode program : 
+[MainTugas4](../../src/4_Relasi_Class/MainTugas4.java)
 
 
 
 ## Kesimpulan
 
-•	Dari percobaan diatas, telah dipelajari kosep dari enkapsulasi, kontruktor, access modifier yang
-terdiri dari 4 jenis yaitu public, protected, default dan private. Konsep atribut atau method class
-yang ada di dalam blok code class dan konsep instansiasi atribut atau method. Cara penggunaan
-getter dan setter beserta fungsi dari getter dan setter. Dan juga telah dipelajari atau memahami
-notasi UML
+dari jobsheet Relasi Class saya lebih paham cara menghubungkan Class satu dengn yang lain nyya menggunakan operasi SETTER dan GETTER
 
 
 
