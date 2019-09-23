@@ -192,8 +192,8 @@ Output :
 ![](img/map.PNG)
 
  Class MobilTugasFuad
-![](img/MobilTugas.PNG)
-![](img/MobilTugas1.PNG)
+![](img/mobilTugas.PNG)
+![](img/mobilTugas1.PNG)
 
 Link kode program : 
 [MobilTugasFuad](../../src/4_Relasi_Class/MobilTugasFuad.java)
