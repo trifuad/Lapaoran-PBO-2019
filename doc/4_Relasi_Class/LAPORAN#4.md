@@ -190,6 +190,7 @@ Output :
 
 ## Tugas
 ![](img/map.PNG)
+
  Class MobilTugasFuad
 ![](img/MobilTugas.PNG)
 ![](img/MobilTugas1.PNG)
