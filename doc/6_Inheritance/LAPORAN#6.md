@@ -535,6 +535,41 @@ Terlihat
   
 
 ## Tugas 
+Class Komputer
+![](img/komputer.PNG)
+
+Link kode program : 
+[Komputer](../../src/6_Inheritance/Komputer1841720139Fuad.java)
+
+Class Laptop
+![](img/laptop.PNG)
+
+Link kode program : 
+[Laptop](../../src/6_Inheritance/Laptop1841720139Fuad.java)
+
+Class PC
+![](img/pc.PNG)
+
+Link kode program : 
+[PC](../../src/6_Inheritance/Pc1841720139Fuad.java)
+
+Class Mac
+![](img/mac.PNG)
+
+Link kode program : 
+[Mac](../../src/6_Inheritance/Mac1841720139Fuad.java)
+
+Class Windows
+![](img/WIndows.PNG)
+
+Link kode program : 
+[WIndows](../../src/6_Inheritance/Widows1841720139Fuad.java)
+
+Class MainTugas
+![](img/maintugas.PNG)
+
+Link kode program : 
+[MainTugas](../../src/6_Inheritance/MainTugas.java)
 
 
 ## Kesimpulan
