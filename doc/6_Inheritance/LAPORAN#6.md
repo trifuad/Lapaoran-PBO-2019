@@ -560,7 +560,7 @@ Link kode program :
 [Mac](../../src/6_Inheritance/Mac1841720139Fuad.java)
 
 Class Windows
-![](img/WIndows.PNG)
+![](img/Windows.PNG)
 
 Link kode program : 
 [WIndows](../../src/6_Inheritance/Widows1841720139Fuad.java)
