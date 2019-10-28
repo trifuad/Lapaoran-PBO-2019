@@ -130,7 +130,7 @@ Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan menerbitkan a
 
 ## Kesimpulan
 
-dari jobsheet overloading dan overriding saya lebih paham dengan apa itu method ada yang ditumpuk dengan mebbunganan tipe data yang berbeda, dan memperdalam materi extends saya.
+saya mulai mehami abstrak dan implementasi 
 
 
 ## Pernyataan Diri
