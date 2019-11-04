@@ -130,7 +130,7 @@ Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan menerbitkan a
 
 ## Kesimpulan
 
-saya mulai mehami abstrak dan implementasi 
+saya mulai mehami abstrak dan implementasi .
 
 
 ## Pernyataan Diri
