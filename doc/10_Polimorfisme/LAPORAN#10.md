@@ -59,7 +59,7 @@ Class Tester1
 ![](img/test1.PNG)
 
 Link kode program : 
-[Tester1](../../src/10_Polimorfisme/Tester1.java
+[Tester1](../../src/10_Polimorfisme/Tester1.java)
 
 #### Pertanyaan
 1. Class **InternshipEmployee** dan **PermanentEmployee** merupakan turunan dari class **Employee**
