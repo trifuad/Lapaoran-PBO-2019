@@ -1,6 +1,6 @@
 # Laporan Praktikum #9 - Abstract Class dan Interface 
 
-TRI FUAD
+
 ## Kompetensi
 Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu: 
 1. Menjelaskan maksud dan tujuan penggunaan Abstract Class;
@@ -47,6 +47,14 @@ Class Pt1Program
 Link kode program : 
 [Pt1Program](../../src/9_Abstract_Class_dan_Interface/Pt1Program.java)
 
+# Pertanyaan 1
+
+- Bolehkah apabila sebuah class yang meng-extend suatu abstract class tidak 
+  mengimplementasikan method abstract yang ada di class induknya? Buktikan
+
+  Jawab : Tidak boleh, karena kelas turunan harus mengoverride method yang ada dari kelas induk dan bila tidak maka akan muncul eror, 
+          misalnya di kelas ‘Kucing’ dihapus method bergerak(), makan akan muncul eror
+
 
 ### Percobaan 2
 Class ICumlaude
@@ -87,10 +95,13 @@ Link kode program :
 
 #### soal
 a. Mengapa pada langkah nomor 9 terjadi error? Jelaskan! 
+   Jawab : Karena pada class Mahasiswa tidak ter implementasi interfaces dari Icumlaude ] sehingga eror ketika akan dipanggil oleh ‘pakRektor’ 
 
-b. Dapatkah method kuliahDiKampus() dipanggil dari objek sarjanaCumlaude di class Program? Mengapa demikian? 
+b. Dapatkah method kuliahDiKampus() dipanggil dari objek sarjanaCumlaude di class Program? Mengapa demikian?
+   Jawab : Bisa, karena sarjanaCumlaude dari class Sarjana adalah kelas turunan dari ‘Mahasiswa’, sehingga method ‘KulihadiKampus’ bisa               dipanggil ke class Sarjana
 
-c. Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa di method beriSertifikatCumlaude() pada class Rektor? Mengapa demikian? 
+c. Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa di method beriSertifikatCumlaude() pada class Rektor? Mengapa demikian?
+   Jawab : Tidak bisa, karena class rektor hanya menggunakan implementasi dari Icumlaude, dan ‘kuliahDiKampus’ dari Mahasiswa tidak pernah di inisiasi di kelas rektor 
 
 d. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi class Program menjadi seperti berikut ini: 
 ![](img/soalpt2.PNG)
@@ -130,7 +141,7 @@ Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan menerbitkan a
 
 ## Kesimpulan
 
-saya mulai mehami abstrak dan implementasi .
+saya mulai memahami abstrack class dan interface class , dan sudah sedikit- sedikit sudah paham cara implementasi an nya terhadap suatau class.
 
 
 ## Pernyataan Diri
