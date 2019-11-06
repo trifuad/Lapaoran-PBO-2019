@@ -47,7 +47,7 @@ Class Pt1Program
 Link kode program : 
 [Pt1Program](../../src/9_Abstract_Class_dan_Interface/Pt1Program.java)
 
-# Pertanyaan 1
+#### soal
 
 - Bolehkah apabila sebuah class yang meng-extend suatu abstract class tidak 
   mengimplementasikan method abstract yang ada di class induknya? Buktikan
